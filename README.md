@@ -1,21 +1,22 @@
 # MERN-Project
 https://burrow.com/ website using MERN Stack
 
+You'll need to install MongoDB on your system to run your application locally.
+You can download MongoDB Community Edition from the official website: https://www.mongodb.com/try/download/community
+
 To run the project, Open two terminals for backend and frontend:
 
-In the backend directory, you can run:
+In the backend directory, run the following commands:
 1. `npm install`
 2. `npm run dev` or `nodemon server.js` or `node server.js`
+The backend server will be running on a separate port (possibly http://localhost:5000)
 
-In the frontend directory, you can run:
+In the frontend directory, run the following commands:
 1. `npm install`
 2. `npm start`
+The frontend development server will be running on http://localhost:3000
 
-Admin USERNAME: arun@gmail.com
-Admin PASSWORD: 123Qwe
-
-Customer USERNAME: arun@gmail.com
-Customer PASSWORD: 123Qwe
+Make sure you have MongoDB running with the correct connection URI (mongodb://127.0.0.1:27017/burrow) that your backend code uses for connecting to the database.
 
 # Getting Started with Create React App
 
